@@ -8,14 +8,17 @@ We use many elements in html and the purpose of them is to define the structure 
 HTML has six "levels" of
 headings:
 
-#Hello There!
+# Hello There!
   
-##Hello There!
+## Hello There!
   
-###Hello There!
-####Hello There!
-#####Hello There!
-######Hello There!
+### Hello There!
+
+#### Hello There!
+
+##### Hello There!
+
+###### Hello There!
 
 It is important to use each tag only one time.
 
