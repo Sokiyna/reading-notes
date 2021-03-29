@@ -1,19 +1,21 @@
 
 
+**HTML**
+
 
 We use many elements in html and the purpose of them is to define the structure of the page. for example : 
 
 HTML has six "levels" of
 headings:
 
-*<h1>Hello There!<h1>*
+#Hello There!
   
-*<h2>Hello There!<h2>*
+##Hello There!
   
-*<h3>Hello There!<h3>*
-<h4>Hello There!<h4>
-<h5>Hello There!<h5>
-<h6>Hello There!<h6>
+###Hello There!
+####Hello There!
+#####Hello There!
+######Hello There!
 
 It is important to use each tag only one time.
 
@@ -31,6 +33,6 @@ To bring the variation between days/weeks/years, you divide this number by the n
 
 |Name                 	    |  Shorthand operator     |       	Meaning        |
 |---------------------------|-------------------------|---------------------   |
-|Assignment                 |  x = y	                |           x = y        |
-|Addition assignment	      |      x += y	            |            x = x + y   |
-|Subtraction assignment     | x -= y                  |        x = x - y
+|Assignment                 |  x = y	              |           x = y        |
+|Addition assignment	    |      x += y	          |            x = x + y   |
+|Subtraction assignment     | x -= y                  |        x = x - y       |
