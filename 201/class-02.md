@@ -6,9 +6,11 @@ We use many elements in html and the purpose of them is to define the structure 
 HTML has six "levels" of
 headings:
 
-<h1>Hello There!<h1>
-<h2>Hello There!<h2>
-<h3>Hello There!<h3>
+*<h1>Hello There!<h1>*
+  
+*<h2>Hello There!<h2>*
+  
+*<h3>Hello There!<h3>*
 <h4>Hello There!<h4>
 <h5>Hello There!<h5>
 <h6>Hello There!<h6>
@@ -27,12 +29,8 @@ before creating a calculation using that value. Also this language is able to di
 
 To bring the variation between days/weeks/years, you divide this number by the number of milliseconds in a day/week/year.
 
-|Name                 	    |  Shorthand operator     |       	Meaning
-|---------------------------|-------------------------|---------------------
-|Assignment                 |  x = y	              |           x = y
-|Addition assignment	    |      x += y	          |               x = x + y
+|Name                 	    |  Shorthand operator     |       	Meaning        |
+|---------------------------|-------------------------|---------------------   |
+|Assignment                 |  x = y	                |           x = y        |
+|Addition assignment	      |      x += y	            |            x = x + y   |
 |Subtraction assignment     | x -= y                  |        x = x - y
-|Multiplication assignment	| x *= y	              |           x = x * y
-|Division assignment	    |     x /= y              |            x = x / y
-|Remainder assignment	    | x %= y                  |        x = x % y
-|Exponentiation assignment	| x **= y	              |       x = x ** y
