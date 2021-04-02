@@ -47,7 +47,7 @@ i nnerHTML or text Content would do the same).
 using the l ength property on the l ist Items
 variable.
 With this information ready, there are two steps to
-updating the content of the <h2> element:
+updating the content of the h2 element:
 
 1. Creating the new heading and storing it in a
 variable - the new heading will be made up of the
