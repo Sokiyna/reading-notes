@@ -1,27 +1,44 @@
-***React lifecycle*** 
+## Component-Based Architecture
+1- A component is a modular, portable, replaceable, and reusable set of well-defined functionality that encapsulates its implementation and exporting it as a higher-level interface.
 
-1. render
+2- 
 
-2.getDerivedStateFromProps()
+Reusability − Components are usually designed to be reused in different situations in different applications. However, some components may be designed for a specific task.
 
-3. 1- constructor
+Replaceable − Components may be freely substituted with other similar components.
 
-     2- React Updates
+Not context specific − Components are designed to operate in different environments and contexts.
 
-     3- render
+Extensible − A component can be extended from existing components to provide new behavior.
 
-     4- componentDidMount
+Encapsulated − A A component depicts the interfaces, which allow the caller to use its functionality, and do not expose details of the internal processes or any internal variables or state.
 
-     5- componentWillUnmount
+Independent − Components are designed to have minimal dependencies on other components.
 
-4. It is called once in the component life cycle and it signals that the component and all its sub-components have rendered properly.
+3- 
 
-### React State Vs Props
+Ease of deployment − As new compatible versions become available, it is easier to replace existing versions with no impact on the other components or the system as a whole.
 
-1. can be anything from integers over objects to arrays.
+Reduced cost − The use of third-party components allows you to spread the cost of development and maintenance.
 
-2. is an object of arbitrary inputs a React function component accepts as the first argument.
+Ease of development − Components implement well-known interfaces to provide defined functionality, allowing development without impacting other parts of the system.
 
-3. When the user makes a change.
+Reusable − The use of reusable components means that they can be used to spread the development and maintenance cost across several applications or systems.
 
-4.string, Boolean, numbers.
+Modification of technical complexity − A component modifies the complexity through the use of a component container and its services.
+
+Reliability − The overall system reliability increases since the reliability of each individual component enhances the reliability of the whole system via reuse.
+
+System maintenance and evolution − Easy to change and update the implementation without affecting the rest of the system.
+
+Independent − Independency and flexible connectivity of components. Independent development of components by different group in parallel. Productivity for the software development and future software development.
+
+## Props
+1-  properties.
+
+2- 
+
+Firstly, define an attribute and its value(data)
+Then pass it to child component(s) by using Props
+Finally, render the Props Data
+3- uni-directional flow.
