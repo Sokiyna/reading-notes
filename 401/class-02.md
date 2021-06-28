@@ -45,3 +45,51 @@ What are you most excited about trying to implement or see how it works?
 I want to see how SOAP works and examples of when to use either SOAP or REST
 I am excited to see how usernames:passwords are used and websites are altered to every unique individual’s saved storage, preferences, etc.
 Really interested how real-time person to person communication is developed
+
+### About npm
+
+npm is the world's largest software registry. Open source developers from every continent use npm to share and borrow packages, and many organizations use npm to manage private development as well.
+
+npm consists of three distinct components:
+
+the website
+the Command Line Interface (CLI)
+the registry
+Use the website to discover packages, set up profiles, and manage other aspects of your npm experience. For example, you can set up organizations to manage access to public or private packages.
+
+The CLI runs from a terminal, and is how most developers interact with npm.
+
+The registry is a large public database of JavaScript software and the meta-information surrounding it.
+
+### TDD Definition
+
+“Test-driven development” refers to a style of programming in which three activities are tightly interwoven: coding, testing (in the form of writing unit tests) and design (in the form of refactoring).
+
+It can be succinctly described by the following set of rules:
+
+write a “single” unit test describing an aspect of the program
+run the test, which should fail because the program lacks that feature
+write “just enough” code, the simplest possible, to make the test pass
+“refactor” the code until it conforms to the simplicity criteria
+repeat, “accumulating” unit tests over time
+
+### Express/Node introduction
+
+
+Node (or more formally Node.js) is an open-source, cross-platform runtime environment that allows developers to create all kinds of server-side tools and applications in JavaScript. The runtime is intended for use outside of a browser context (i.e. running directly on a computer or server OS). As such, the environment omits browser-specific JavaScript APIs and adds support for more traditional OS APIs including HTTP and file system libraries.
+
+From a web server development perspective Node has a number of benefits:
+
+Great performance! Node was designed to optimize throughput and scalability in web applications and is a good solution for many common web-development problems (e.g. real-time web applications).
+Code is written in "plain old JavaScript", which means that less time is spent dealing with "context shift" between languages when you're writing both client-side and server-side code.
+JavaScript is a relatively new programming language and benefits from improvements in language design when compared to other traditional web-server languages (e.g. Python, PHP, etc.) Many other new and popular languages compile/convert into JavaScript so you can also use TypeScript, CoffeeScript, ClojureScript, Scala, LiveScript, etc.
+The node package manager (NPM) provides access to hundreds of thousands of reusable packages. It also has best-in-class dependency resolution and can also be used to automate most of the build toolchain.
+Node.js is portable. It is available on Microsoft Windows, macOS, Linux, Solaris, FreeBSD, OpenBSD, WebOS, and NonStop OS. Furthermore, it is well-supported by many web hosting providers, that often provide specific infrastructure and documentation for hosting Node sites.
+It has a very active third party ecosystem and developer community, with lots of people who are willing to help.
+You can use Node.js to create a simple web server using the Node HTTP package.
+
+### What is CI/CD?
+
+CI/CD is a method to frequently deliver apps to customers by introducing automation into the stages of app development. The main concepts attributed to CI/CD are continuous integration, continuous delivery, and continuous deployment. CI/CD is a solution to the problems integrating new code can cause for development and operations teams (AKA "integration hell").
+
+Specifically, CI/CD introduces ongoing automation and continuous monitoring throughout the lifecycle of apps, from integration and testing phases to delivery and deployment. Taken together, these connected practices are often referred to as a "CI/CD pipeline" and are supported by development and operations teams working together in an agile way with either a DevOps or Site reliability engineering (SRE) approach.
